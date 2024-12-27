@@ -10,8 +10,8 @@ from fastapi.encoders import jsonable_encoder
 from collections import defaultdict
 
 from config import BaseConfig
-from routers.cars import router as cars_router
-from routers.users import router as users_router
+from routes.cars import router as cars_router
+from routes.users import router as users_router
 
 settings = BaseConfig()
 
